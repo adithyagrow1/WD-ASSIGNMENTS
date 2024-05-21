@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adithya Vasishta Ltd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Adithya Vasishta Ltd</h1>
+    </div>
+</header>
+
+<div class="container">
+    <h2>Customer Registration</h2>
+    <form action="/register" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="car">Select Car:</label>
+        <select id="car" name="car" required>
+            <option value="Sedan">Sedan</option>
+            <option value="SUV">SUV</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Convertible">Convertible</option>
+        </select>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <div class="cars">
+        <h2>Selected Cars Information</h2>
+        <div class="car">
+            <img src="https://via.placeholder.com/800x400?text=Sedan" alt="Sedan">
+            <h3>Sedan</h3>
+            <p>Our Sedans offer a perfect blend of luxury and performance. Featuring advanced safety systems and cutting-edge technology, they provide a smooth and enjoyable driving experience.</p>
+        </div>
+        <div class="car">
+            <img src="https://via.placeholder.com/800x400?text=SUV" alt="SUV">
+            <h3>SUV</h3>
+            <p>Our SUVs are designed for those who seek adventure without compromising on comfort. With spacious interiors and powerful engines, they are perfect for both city drives and off-road escapades.</p>
+        </div>
+        <div class="car">
+            <img src="https://via.placeholder.com/800x400?text=Hatchback" alt="Hatchback">
+            <h3>Hatchback</h3>
+            <p>Compact yet versatile, our Hatchbacks are ideal for urban living. They offer excellent fuel efficiency and easy maneuverability, making them a favorite for city dwellers.</p>
+        </div>
+        <div class="car">
+            <img src="https://via.placeholder.com/800x400?text=Convertible" alt="Convertible">
+            <h3>Convertible</h3>
+            <p>Experience the thrill of open-air driving with our Convertibles. Combining sleek design with top-notch performance, they are sure to turn heads wherever you go.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
